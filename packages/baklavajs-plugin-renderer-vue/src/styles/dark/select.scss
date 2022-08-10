@@ -60,7 +60,7 @@
         left: 0;
         right: 0;
         z-index: 10;
-        background-color: #000000AA;
+        background-color: $color-control-dark-background;
         filter: drop-shadow(0 0 4px black);
         border-radius: 0 0 $border-radius-control $border-radius-control;
 
@@ -88,8 +88,9 @@
             }
 
             &.--header {
-                color: gray;
-                border-bottom: 1px solid gray;
+                // color: gray;
+                // border-bottom: 1px solid gray;
+                font-weight: bold;
                 padding: 0.5em 0.35em;
                 padding-left: 1em;
             }
